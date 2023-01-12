@@ -21,4 +21,3 @@ class MenuViewTest(TestCase):
         self.assertEqual(item1.__str__(), "IceCream : 25.50")
         self.assertEqual(item2.__str__(), "Salad : 5.50")
         self.assertEqual(item3.__str__(), "Fried Chicken : 14.50")
-        print(item3)
